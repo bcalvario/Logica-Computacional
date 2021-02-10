@@ -23,6 +23,7 @@ listaVariables (Con p q) = (listaVariables p) ++ (listaVariables q)
 listaVariables (Neg p) = listaVariables p
 
 -- Tests:
+--
 -- listaVariables Top
 -- listaVariables Bot
 -- listaVariables (Var "p")

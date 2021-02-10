@@ -92,6 +92,10 @@ lNor p = p
 -- lNor Bot
 -- lNor (Var "p")
 
+
+--Ejercicio 7. Función que recibe un modelo y una formula de PL y regresa si el modelo 
+--satisface o no a la formula.
+
 type Modelo = [Variable]
 
 mSatisface :: Modelo -> PL -> Bool
